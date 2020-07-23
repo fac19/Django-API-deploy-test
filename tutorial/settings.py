@@ -25,7 +25,10 @@ SECRET_KEY = 'u3tnp7c(_bh(1^5mb&4-rcy62%$aw(x65sd1!!=56v#2vu)e5_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '0.0.0.0',
+    'ivatsko-nipx2s76da-ew.a.run.app'
+]
 
 
 # Application definition
